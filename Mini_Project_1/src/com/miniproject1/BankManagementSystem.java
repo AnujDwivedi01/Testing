@@ -9,7 +9,7 @@ abstract class BankAccount {
     protected String accountHolderName;
     protected double balance;
 
-    // Constructor
+    //   Constructor    
     BankAccount(int accNo, String name, double bal) {
         accountNumber = accNo;
         accountHolderName = name;
